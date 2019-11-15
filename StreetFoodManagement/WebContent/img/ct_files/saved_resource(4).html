@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <link rel="stylesheet" href="./jquery-ui.min.css">
+    <link rel="stylesheet" href="./styles.min(1).css">
+    <script src="./JotFormCustomWidget.min.js.download"></script>
+    <script src="./jquery-1.11.0.min.js.download"></script>
+    <script src="./jquery-ui.min.js.download"></script>
+    <script src="./scripts.min.js(1).download"></script>
+
+</head>
+
+<body>
+    <form>
+        <div id="countriesContainer" class="fieldsets countries">
+            <label for="countries">Country</label>
+            <select id="countries" class="dropdowns">
+                <option value=""></option>
+            </select>
+        </div>
+
+        <div id="statesContainer" class="fieldsets states">
+            <label for="states">State <span id="citiesCount"></span></label>
+            <select id="states" class="dropdowns"></select>
+            <span id="statesPlaceholder" class="placeholders"></span>
+        </div>
+
+        <div id="citiesContainer" class="fieldsets cities">
+            <label for="cities">City</label>
+            <input type="text" id="cities" placeholder="Find city">
+            <span id="citiesPlaceholder" class="placeholders"></span>
+            <button id="citiesButton" class="show-btn">Show cities in dropdown</button>
+        </div>
+    </form>
+
+
+</body></html>

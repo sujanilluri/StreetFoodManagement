@@ -1,0 +1,105 @@
+<html>
+<head><style >
+#new1
+{
+height:60px;
+width:95%;
+font-size:50px;
+margin-left:2.5%;
+margin-top:20px;
+color:white;
+
+}
+.new
+{
+ background-image:url(./img/food1.jpg);
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+   
+
+
+}
+body
+{
+ background-color: lightblue;
+ color:#1a1c18;
+
+}
+.tb
+{
+font-size:25px;
+margin-top:0px;
+text-shadow: 2px 2px yellow;
+}
+input[type="text"]
+{
+
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+}
+input[type="number"]
+{
+
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-left-radius:30px;
+border-bottom-right-radius:30px;
+}
+#new1
+{
+color:yellow;
+text-shadow: 4px 4px black;
+
+}
+.Button
+{
+background-color: #4CAF50;
+font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="new" style="border:2px solid green;">
+
+<form action="Addshop" method="post">
+<div id="new1" align="center">Register Shop Form</div>
+<div>
+
+<table class="tb" align="center" cellspacing="10px">
+
+<tr><td>sno:</td><td><input type="text" name="sno"></td></tr>
+<tr><td>shopName:</td><td><input type="text" name="shopname"></td></tr>
+<tr><td>shopAdd:</td><td><select name="sadd">
+  <option value="KPKB">KPKB</option>
+  <option value="KUKATPALLY">KUKATPALLY</option>
+  <option value="JHILLS">JHILLS</option>
+  <option value="SR NAGAR">SR NAGAR</option>
+   <option value="HITECH">HITECH</option>
+    <option value="MADHAPUR">MADHAPUR</option>
+</select></td></tr>
+<tr><td>contact:</td><td><input type="number" name="contact"></td></tr>
+<tr><td>email:</td><td><input type="text" name="email"></td></tr>
+<tr><td>venId :</td><td><input type="number" name="vid"></td></tr>
+<tr><td>venName:</td><td><input type="text" name="vname"></td></tr>
+<tr><td>age:</td><td><input type="number" name="age"></td></tr>
+<tr><td>Gender :</td><td><input type="radio" name="gender" value="M">MALE</td></tr>
+<tr><td></td><td><input type="radio" name="gender" value="F">FeMale</td></tr>
+<tr><td>mobile:</td><td><input type="number" name="mob"></td></tr>
+<tr><td>itemno :</td><td><input type="number" name="itno"></td></tr>
+<tr><td>itemName:</td><td><input type="text" name="itemname"></td></tr>
+<tr><td>itemPrice:</td><td><input type="number" name="price"></td></tr>
+<tr><td>Type :</td><td><input type="radio" name="type1" value="biryani">BIRYANI'S</td></tr><br>
+<tr><td></td><td><input type="radio" name="type1" value="beverages">DRINKS</td></tr><br>
+<tr><td></td><td><input type="radio" name="type1" value="starters">STARTERS&SNACKS</td></tr><br>
+<tr><td></td><td><input type="radio" name="type1" value="desserts">DESSERTS</td></tr><br>
+<tr><td></td><td><input class="Button" type="submit" value="ADD"></td></tr>
+
+</table>
+</div></form>
+</div>
+</body>
+</html>

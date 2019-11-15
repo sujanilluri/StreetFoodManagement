@@ -1,0 +1,229 @@
+﻿<html>
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+.new {
+	background-image: url("./img/bg.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: 2px solid green;
+	height: 663px;
+	﻿ overflow: hidden;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 100px 0 12px 0;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.tb {
+	margin-left: 40%;
+	cellpadding: 20px;
+	height: 30%;
+	width: 20%;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+	text-shadow: 2px 2px white;
+}
+
+span.reg {
+	float: left;
+	padding-top: 16px;
+	text-shadow: 2px 2px white;
+}
+
+.fm {
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.lg {
+	background-color: dodgerblue;
+	color: white;
+	padding: 15px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.lg:hover {
+	opacity: 1;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.input-container {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.icon {
+	padding: 10px;
+	background: dodgerblue;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+}
+
+.input-field {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+}
+
+.input-field:focus {
+	border: 2px solid dodgerblue;
+}
+
+.ic {
+padding:20px;
+	
+}
+.navbar navbar-inverse
+{
+width:100%;
+height:100px;
+}
+.subhead3
+{
+height:auto;
+margin-top:0px;
+cellpadding:3px;
+}
+.footer
+{
+	height:70px;
+	background-color:#3a3b3d;
+}
+.copyrights
+{
+	display:inline-block;
+	margin-top:25px;
+	width:317px;
+	float:left;
+	margin-left:30%;
+}
+.copyrights p
+{
+	color:white;
+	
+}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Street Food Management</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="Home.html">Home</a></li>
+				<li class="active"><a href="AboutUs.html">About Us</a></li>
+				<li class="active"><a href="ContactUs.html">Contact Us</a></li>
+				<li class="active"><a href="#">Log</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+      <li><a href="Home.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+		</div>
+	</nav>
+	<!-- <div class="new">
+<form action="LoginServlet" method="get">
+<div class="imgcontainer">
+    <img src="./img/icon.jpg" alt="Avatar" class="img-circle">
+  </div>
+<table class="tb">
+<tr><td colspan="2">
+<div class="input-group" >
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="username" placeholder="Email">
+  </div></td></tr>
+<tr><td colspan="2"><div class="input-group" >
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div></td></tr>
+<tr><td align="center" colspan="2"><input class="btn btn-primary" type="submit" value="Login" name="lg"></td></tr>
+<tr><td><span class="reg"> <a href="Register.html">Register</a></span></td><td><span class="psw"> <a href="Forgetpwd">Forgot Password?</a></span></td></tr>
+</table>
+</form> 
+ -->
+
+	<div class="new">
+		<form action="LoginServlet" method="get" class="fm">
+			<div class="imgcontainer">
+				<img src="./img/icon.jpg" alt="Avatar" class="img-circle">
+			</div>
+
+
+			<div class="input-container">
+				<i class="fa fa-envelope icon ic"></i> <input class="input-field"
+					type="text" placeholder="Email" name="username">
+			</div>
+
+			<div class="input-container">
+				<i class="fa fa-key icon ic"></i> <input class="input-field"
+					type="password" placeholder="Password" name="password">
+			</div>
+
+			<button type="submit" class="lg">Login</button>
+
+			<tr>
+				<td><span class="reg"> <a href="Register.html">Register</a></span></td>
+				<td><span class="psw"> <a href="Forgetpwd">Forgot
+							Password?</a></span></td>
+			</tr>
+	
+	</form>
+	</div>
+	
+<div class="subhead3">
+			<div class="footer">
+				<div class="container">
+					<div class="copyrights">
+						<p color="white">Copyrights cloud hosting 2019 all right reserved</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	
+
+
+
+</body>
+</html>
+
+
+
+

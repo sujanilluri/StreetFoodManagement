@@ -1,0 +1,68 @@
+shop no unique
+name repeat
+item no unique
+
+vendor table 
+1          
+2          
+3          
+4 add edit delete
+----- sno search
+order table qty 
+__________
+ADMIN VIEW ALL TABLE WITH SEARCH
+-
+
+
+vendor update shop html to sno to update shop
+
+shop table 
+----------
+sno repeat 
+itemno unique	
+---------------
+login
+------------
+sno unique only one shop
+-----------
+order --user email becoz of multiple users
+
+select sno where user emil
+
+select cart where sno
+
+
+view cart form action order placed message with user home button
+button place order on click reports get from order id set to report table
+
+select query from order id from cart
+insert into report(???)
+setInt(1,o.gersno)
+setstring(2,o.getsname)
+
+repports add date sysdate.
+
+message added to cart
+
+user view all with header view cart
+
+order table
+shname sgadd itemnane itemprice qty totalprice username uadd
+
+view cart update cart same
+
+search both
+menu items with pictures
+place oreder map view
+shop available
+filters
+no of delivery boys
+user location around
+payments
+cart operations
+Admin Reports
+
+note: update Servlet
+login
+user check
+delivery
